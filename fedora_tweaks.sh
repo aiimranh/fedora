@@ -20,7 +20,7 @@ rem_packages=(
     rhythmbox*
     gnome-weather*
     epiphany*
-    game-music-emu*
+    game-music-emu*  # Apps Store may be
 )
 
 # Loop through the list of packages and remove them
