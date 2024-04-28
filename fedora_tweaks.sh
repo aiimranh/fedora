@@ -19,8 +19,8 @@ rem_packages=(
     totem-video-thumbnailer*
     rhythmbox*
     gnome-weather*
-    # epiphany*
-    # game-music-emu*  # Apps Store may be
+    # epiphany*        #App Store
+    # game-music-emu*
 )
 
 # Loop through the list of packages and remove them
