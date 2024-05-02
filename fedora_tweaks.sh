@@ -19,8 +19,8 @@ rem_packages=(
     totem-video-thumbnailer*
     rhythmbox*
     gnome-weather*
-    epiphany*
-    game-music-emu*  # Apps Store may be
+    # epiphany*        #App Store
+    # game-music-emu*
 )
 
 # Loop through the list of packages and remove them
@@ -28,19 +28,17 @@ for package in "${rem_packages[@]}"; do
     sudo dnf remove "$package" -y
 done
 
-# updating system
-sudo dnf update -y
-
 # List of packages to install
 packages=(
-    git
-    wget
-    curl
     gnome-tweaks
+    zsh
 )
 
 # Loop through the list of packages and install them
 for package in "${packages[@]}"; do
     sudo dnf install "$package" -y
 done
+
+# updating system
+sudo dnf update -y
 
