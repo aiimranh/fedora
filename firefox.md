@@ -1,4 +1,6 @@
-## Set all of them true in `about:config`
+## Firefox Tweaks
+
+### Set all of them `true` in `about:config`
 
 layers.acceleration.force-enabled
 gfx.webrender.all
